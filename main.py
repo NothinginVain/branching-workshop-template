@@ -7,6 +7,11 @@ from speed_converter import mps_to_kph
 from time_converter import seconds_to_minutes
 from data_converter import bytes_to_kilobytes
 
+
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+
 def main():
     print("Length: 5000 meters = ", meters_to_kilometers(5000), "kilometers")
     print("Weight: 10000 grams = ", grams_to_kilograms(10000), "kilograms")
